@@ -1,0 +1,31 @@
+Fortal License Agreement
+
+1. License Grant
+
+Copyright (c) 2026 Benjamin Court. All rights reserved.
+
+Benjamin Court ("Licensor") grants you a non-exclusive, non-transferable, limited license to use Fortal ("Software") in its executable form for personal, non-commercial, or commercial purposes at no charge.
+
+2. Restrictions
+
+You agree that you will not, and you will not permit others to:
+
+ - Modify, translate, or create derivative works of the Software.
+ 
+ - Decompile, disassemble, or reverse engineer the Software, or attempt to derive the source code in any way.
+
+ - Sell, rent, lease, lend, distribute or sublicense the Software, or bundle it with other products without written permission from the Licensor.
+ 
+ - Remove or alter any proprietary notices, labels, or trademarks on or in the Software.
+
+3. Ownership
+
+All title, ownership rights, and intellectual property rights in and to the Software remain with the Licensor. The source code remains the sole property of the Licensor and is not provided.
+
+4. Disclaimer of Warranty
+
+The software is provided "AS IS" and without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the Licensor be liable for any claim, damages, or other liability.
+
+5. Termination
+
+This license is effective until terminated. Your rights under this License will terminate automatically without notice from the Licensor if you fail to comply with any term(s) of this License. In such an event, you must destroy all copies of the Software and all of its component parts.
