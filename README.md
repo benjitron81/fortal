@@ -5,8 +5,13 @@ A desktop application for retrieving and viewing configuration of FortiGate devi
 ## Current Status
 
 - Status: Beta
-- Latest Release: 0.8.2
-- Release Date: 13-06-2026
+- Latest Release: 0.8.3
+- Release Date: 14-06-2026
+
+## Change Log 0.8.3
+
+- 14-06-2026: Fixed 'traffic volume' key error bug when retrieving firewall users
+- 14-06-2026: Fixed 'scope member' key error bug when retrieving assigned policy package name
 
 ## Change Log 0.8.2
 
