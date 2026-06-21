@@ -5,8 +5,21 @@ A desktop application for retrieving and viewing configuration of FortiGate devi
 ## Current Status
 
 - Status: Beta
-- Latest Release: 0.8.3
-- Release Date: 14-06-2026
+- Latest Release: 0.8.4
+- Release Date: 21-06-2026
+
+## Change Log 0.8.4
+
+- 21-06-2026: Added Policy tab to display firewall policies configured on the FortiGate
+- 21-06-2026: Added option to retrieve page to select between full retrieve (all tabs) and minimal retrieve (System and Interfaces tabs only)
+- 21-06-2026: Added additional function to check JSON validity of all API responses, and to reprocess the response when the bcfortiapi library returns a byte string (occurs as a failsafe when the FortiGate returns certain invalid characters in the API response)
+- 21-06-2026: Fixed bug in System tab where management interface dropdown would lose the selected interface when defocused
+- 20-06-2026: Added settings page (accessed from side menu), replaced plain-text settings file (fortal_settings.conf) with JSON-formatted file (fortal_settings.json)
+- 20-06-2026: Fixed bug during device retrieve causing multiple instances of the device selection dropdown to appear if the ADOM selection changed
+- 17-06-2026: Adjusted progression of retrieve progress bar and added progress status message below bar
+- 17-06-2026: Added description column to Interfaces tab
+- 17-06-2026: Fixed bug in System tab causing devices with multiple assigned policy packages to only display the last one in the list
+- 17-06-2026: Fixed "Invalid Number" error showing for some traffic volume stats in firewall users tab
 
 ## Change Log 0.8.3
 
@@ -15,8 +28,8 @@ A desktop application for retrieving and viewing configuration of FortiGate devi
 
 ## Change Log 0.8.2
 
-- 13-06-2026: Added progress bar to retrieve screen
-- 13-06-2026: Invert colour of images in login and retrieve screens when dark mode is enabled
+- 13-06-2026: Added progress bar to retrieve page
+- 13-06-2026: Invert colour of images in login and retrieve pages when dark mode is enabled
 - 10-06-2026: Added configuration sync status, device database status, and assigned policy package to System tab
 - 10-06-2026: Added option to specify static route index for FortiGate iPerf tests in fortal_settings.conf (default is 100000)
 - 10-06-2026: Added interface name alongside IP address in management interfaces dropdown list for FortiGate HTTPS, SSH and ICMP
