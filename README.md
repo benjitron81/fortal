@@ -5,8 +5,15 @@ A desktop application for retrieving and viewing configuration of FortiGate devi
 ## Current Status
 
 - Status: Beta
-- Latest Release: 0.8.4
-- Release Date: 21-06-2026
+- Latest Release: 0.8.5
+- Release Date: 28-06-2026
+
+## Change Log 0.8.5
+
+- 27-06-2026: Added graph to the Dashboard tab to display min/max/avg response times for the most recent 10 keepalive probes
+- 27-06-2026: Fixed bug where the policy package is not displayed for retrieved devices if the package is located in a subfolder
+- 27-06-2026: Improved text formatting of rows on the Policy tab where cells contain multiple items (such as security profiles and address/ISDB objects)
+- 27-06-2026: Fixed issue where keepalive probes fail when FortiManager is accessed using an FQDN due to a failed DNS lookup, Fortal now does a single DNS lookup at login then uses the resolved IP for all subsequent queries
 
 ## Change Log 0.8.4
 
