@@ -5,8 +5,15 @@ A desktop application for retrieving and viewing configuration of FortiGate devi
 ## Current Status
 
 - Status: Beta
-- Latest Release: 0.8.5
-- Release Date: 28-06-2026
+- Latest Release: 0.8.6
+- Release Date: 10-07-2026
+
+## Change Log 0.8.6
+
+- 10-07-2026: Minor GUI adjustments
+- 09-07-2026: Set default retrieve type to 'Minimal'
+- 09-07-2026: Added firewall policy lookup function to Policy tab
+- 08-07-2026: Fixed bug where Keepalive Response graph could refresh too frequently causing Fortal to become unresponsive
 
 ## Change Log 0.8.5
 
