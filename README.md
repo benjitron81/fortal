@@ -4,9 +4,15 @@ A desktop application for retrieving and viewing configuration of FortiGate devi
 
 ## Current Status
 
-- Status: Beta
-- Latest Release: 0.8.6
-- Release Date: 10-07-2026
+- Status: Production/Stable
+- Latest Release: 1.0.0
+- Release Date: 19-07-2026
+
+## Change Log 1.0.0
+
+- 19-07-2026: Added option in settings to enable FortiManager certificate verification (disabled by default)
+- 19-07-2026: Fixed bug where an error notification would sometimes appear after a successful policy lookup
+- 19-07-2026: Updated About page
 
 ## Change Log 0.8.6
 
